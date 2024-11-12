@@ -23,6 +23,19 @@ public class Database {
                         .totalSold(74)
                         .build(),
                 Videogame.builder()
+                        .name("Forza horizon 5")
+                        .price(50.06)
+                        .console(Console.XBOX)
+                        .reviews(List.of(
+                                new Review("Is the best", 5),
+                                new Review("Is the best but expensive", 4),
+                                new Review("Is the best x2", 5)
+                        ))
+                        .officialWebsite("www.forza.com")
+                        .isDiscount(false)
+                        .totalSold(74)
+                        .build(),
+                Videogame.builder()
                         .name("Residen evil 4")
                         .price(55.20)
                         .console(Console.ALL)
